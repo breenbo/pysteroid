@@ -26,6 +26,7 @@ def main():
         
         _ = screen.fill(bg_color)
         player.draw(screen)
+        player.update(dt)
 
         pygame.display.flip()
 
